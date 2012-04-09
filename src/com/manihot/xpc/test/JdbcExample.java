@@ -5,7 +5,8 @@ import java.sql.ResultSet;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import com.manihot.xpc.jdbc.DbConnectionManager;
+
+import com.mooo.mycoz.db.pool.DbConnectionManager;
 
 import java.sql.Connection;
 import java.sql.SQLException;

@@ -1,7 +1,5 @@
 package com.manihot.xpc.test;
 
-import com.manihot.xpc.cache.CacheManager;
-
 public class CacheClient {
 
 	/**
