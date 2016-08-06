@@ -6,6 +6,11 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class MainformFrame extends JFrame implements ActionListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
 	JButton sm, cm, scm, um, exitB;
 
 	public MainformFrame() {
@@ -36,7 +41,6 @@ public class MainformFrame extends JFrame implements ActionListener {
 		exitB.addActionListener(this);
 	}
 
-	@Override
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == sm) {
 			sms();
